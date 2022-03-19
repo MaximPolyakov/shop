@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    outline: none;
+    position: relative;
+}
+
+html, body {
+    height: 100%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.card { 
+    background: #fed;
+    padding: 5px;
+    margin-bottom: 15px;
+    height: 200px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card > .card-img {
+    width: 200px;
+    height: 100%;
+}
+
+.card > .card-img > img {
+    max-width: 100%;
+}
+
+.card > .card-info {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card > .card-info > div {
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper > .content {
+    width: 100%;
+}
+
+.menu {
+    background-color: aqua;
+}

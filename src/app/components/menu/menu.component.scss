@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+}
+
+a { 
+    text-decoration: none;
+    display: block;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.active {
+    color: blue;
+}

@@ -1,0 +1,9 @@
+<div class="card" *ngFor="let data of inputData" (click)="showInfo(data)">
+    <div class="card-img" style="background: url({{data.href}})">
+    </div>
+    <div class="card-info">
+        <div class="card-info-name">{{ data.name }}</div>
+        <div class="card-info-price">{{ data.price }}</div>
+        <div class="card-info-desc">{{ data.desc }}</div>
+    </div>
+</div>
